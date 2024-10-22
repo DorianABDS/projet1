@@ -1,0 +1,139 @@
+html body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 36, 0);
+    color: rgb(255, 255, 255);
+}
+
+body {
+    margin: 0 20px;
+}
+
+header {
+    background-color: grey;
+    padding: 50px;
+}
+
+hr {
+    margin: 0;
+    margin-left: 20px;
+    padding: 0;
+}
+
+.raccourcis {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 0px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.raccourcis a {
+    margin: 10px;
+    color: red;
+    text-decoration: none;
+    
+}
+
+#contact {
+    margin-bottom: 40px;
+}
+
+.raccourcis img {
+    margin: 0px 0px;
+}
+
+footer {
+    background-color: rgb(36, 36, 36);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 60px 60px;
+}
+
+.footer-link  {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-end; */
+    padding: 0;
+    font-size: 20px;
+    line-height: 2;
+}
+
+.link {
+    margin-right: 20px;
+}
+
+.link a {
+    color: red;
+    text-decoration: none;
+}
+
+.link p {
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+}
+
+.link li {
+    list-style-type: none;
+}
+
+@media screen and (min-width: 1400px) {
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1399px) {
+    .footer-link {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .footer-link a {
+        margin: 20px;
+}
+}
+@media screen and (max-width: 767px) {
+    .footer-link {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    li {
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer-link a {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .raccourcis img {
+        width: 200px;
+    }
+    
+}
