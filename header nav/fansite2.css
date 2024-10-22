@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-weight: normal;
+    font-family: "Montserrat", sans-serif;
+    color: #000000;
+    background-color: #a7a7a7;
+    width: auto;
+    margin: 0 auto;
+    line-height: 1.4;
+    flex-wrap: wrap;
+}
+
+.topbar {
+    background-color: #353535;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .15);
+
+}
+
+.topbar img {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.topbar nav {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.topbar nav a {
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    margin: 0 30px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    background: #7f7f7f;
+}
+
+form {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 1s;
+    width: 50px;
+    height: 50px;
+    background: white;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: 4px solid white;
+    padding: 5px;
+}
+
+input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;;
+    height: 42.5px;
+    line-height: 30px;
+    outline: 0;
+    border: 0;
+    display: none;
+    font-size: 1em;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+
+.fa {
+    box-sizing: border-box;
+    padding: 10px;
+    width: 42.5px;
+    height: 42.5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    color: #4e4e4e;
+    text-align: center;
+    font-size: 1.2em;
+    transition: all 1s;
+}
+
+form:hover {
+    width: 300px;
+    cursor: pointer;
+}
+
+form:hover input {
+    display: block;
+}
+
+form:hover .fa {
+    background: #3e3e3e;
+    color: white;
+}
+
+.Jagermeister:hover {
+    color: #5faa6c;
+}
+
+.Chibre-Bleu:hover {
+    color: #5f9baa;
+}
+
+.Lapsuce:hover {
+    color: #aa5f5f;
+}
+
+@media screen and (min-width: 1400px) {
+
+}
+
+@media screen and (min-width: 505px) and (max-width: 1399px) {
+    .footer-link {
+        display: flex;
+    }
+
+    .topbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .topbar img {
+        width: 300px;
+        margin: 20px 0 20px 0;
+    }
+
+    .topbar nav {
+        margin: 30px 0 60px 0;
+    }
+
+
+}
+@media screen and (max-width: 504px) {
+    .topbar {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .topbar nav a {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .topbar img {
+        width: 200px;
+        margin: 5px 0 0 0;
+    }
+
+    .topbar nav {
+        margin: 30px 0 50px 0;
+    }
+}
+
+.banniere {
+    height: 500px;
+    /* background: no-repeat center center / cover url("/img/pépin.jpeg"); */
+}
