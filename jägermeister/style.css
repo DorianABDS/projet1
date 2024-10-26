@@ -1,0 +1,528 @@
+* {
+    box-sizing: border-box;
+}
+
+html body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 36, 0);
+    color: rgb(255, 255, 255);
+}
+
+/* ############################################################################################### */
+/* ############################################################################################### */
+/* ############################################################################################### */
+/* ############################################################################################### */
+/* ######################################    FOOTER    ########################################### */
+/* ############################################################################################### */
+/* ############################################################################################### */
+/* ############################################################################################### */
+/* ############################################################################################### */
+
+hr {
+    margin: 0;
+    margin-left: 20px;
+    padding: 0;
+}
+
+.raccourcis {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 0px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.raccourcis a {
+    margin: 10px;
+    color: rgb(252, 82, 3);
+    text-decoration: none;
+    
+}
+
+.raccourcis a:hover {
+    color: rgb(255, 255, 255);
+}
+
+#contact {
+    margin-bottom: 40px;
+}
+
+.raccourcis img {
+    margin: 0px 0px;
+}
+
+footer {
+    background-color: #0d4734;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 60px 60px;
+    background-image: url(img/banniere\ vert\ grand.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.footer-link  {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-end; */
+    padding: 0;
+    font-size: 20px;
+    line-height: 2;
+}
+
+.link {
+    margin-right: 20px;
+}
+
+.link a {
+    color: #fc5203;
+    text-decoration: none;
+}
+
+.link a:hover {
+    color: rgb(255, 255, 255);
+
+}
+
+.link p {
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.link li {
+    list-style-type: none;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1500px) {
+    .footer-link {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        padding-left: 130px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .footer-link a {
+        margin: 20px;
+}
+}
+@media screen and (max-width: 767px) {
+    .footer-link {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    li {
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer-link a {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .raccourcis img {
+        width: 200px;
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 1800px) {
+    
+}
+
+}
+/* ############################################################################################### */
+/* ############################################################################################### */
+/* ############################################################################################### */
+/* ############################################################################################### */
+/* ######################################    HEADER    ########################################### */
+/* ############################################################################################### */
+/* ############################################################################################### */
+/* ############################################################################################### */
+/* ############################################################################################### */
+
+body {
+    font-size: 16px;
+    font-weight: normal;
+    font-family: "Montserrat", sans-serif;
+    color: #000000;
+    background-color: #a7a7a7;
+    width: auto;
+    margin: 0 auto;
+    line-height: 1.4;
+    flex-wrap: wrap;
+    background-image: url(/img/Fond\ body.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.topbar {
+    background-color: #0C83CE;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .15);
+    background-image: url(img/banniere\ vert\ petite.jpeg);
+    z-index: 1;
+}
+
+nav {
+    margin-right: 15%;
+}
+
+.topbar img {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.topbar nav {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.topbar nav a {
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    margin: 0 30px;
+}
+
+form {
+    position: absolute;
+    top: 50%;
+    left: 95%;
+    transform: translate(-100%,-50%);
+    transition: all 1s;
+    width: 50px;
+    height: 50px;
+    background: white;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: 4px solid white;
+    padding: 5px;
+}
+
+input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;;
+    height: 42.5px;
+    line-height: 30px;
+    outline: 0;
+    border: 0;
+    display: none;
+    font-size: 1em;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+
+.fa {
+    box-sizing: border-box;
+    padding: 10px;
+    width: 42.5px;
+    height: 42.5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    color: #fc5203;
+    text-align: center;
+    font-size: 1.2em;
+    transition: all 1s;
+}
+
+form:hover {
+    width: 200px;
+    cursor: pointer;
+}
+
+form:hover input {
+    display: block;
+}
+
+form:hover .fa {
+    background: #fc5203;
+    color: white;
+}
+
+.Jagermeister:hover {
+    color: #55e7fb;
+    text-decoration: underline;
+}
+
+.Chibre-Bleu:hover, .Chibre-Bleu:active {
+    color: #55e7fb;
+    text-decoration: underline;
+}
+
+.Lapsuce:hover {
+    color: #55e7fb;
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 1400px) {
+
+    .ia {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 968px) and (max-width: 1399px) {
+    nav {
+        margin-right: 17%;
+    }
+    
+    .topbar img {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    
+    .topbar nav {
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+    .iatexte {
+        display: none;
+    }
+    .ia img {
+        display: flex;
+        justify-content: center;
+        width: 92.5px;
+    }
+}
+@media screen and (max-width: 967px) {
+    .topbar {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        height: 122px;
+    }
+    .topbar nav a {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .topbar img {
+        width: 200px;
+        margin: 5px 0 0 0;
+    }
+
+    .topbar nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 100px 0 0;
+    }
+    .iatexte {
+        display: none;
+    }
+
+    .ia img {
+        margin-top: 10%;
+        width: 100px;
+    }
+    
+    .logochibre {
+        padding-top: 100px;
+    }
+
+    .actu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 150px;
+    padding-bottom: 150vh;
+    }
+    .card {
+        margin: 10px;
+    }
+}
+
+/* le block conteneur */
+.marquee-rtl {
+    max-width: 1000em;                      /* largeur de la fenêtre */
+    margin: 0em auto 5em;
+    /* border: 10px solid #f0fff2; */
+    overflow: hidden;                     /* masque tout ce qui dépasse */
+    box-shadow: 0 .25em .5em rgb(13, 71, 52),inset 0 0 1em .25em rgb(13, 71, 52);
+  }
+
+  /* le bloc défilant */
+.marquee-rtl > :first-child {
+    display: inline-block;                /* modèle de boîte en ligne */
+    padding-right: 2em;                   /* un peu d'espace pour la transition */
+    padding-left: 100%;                   /* placement à droite du conteneur */
+    white-space: nowrap;                  /* pas de passage à la ligne */
+    animation: defilement-rtl 1000s infinite linear;
+    animation-iteration-count: infinite;
+  }
+
+  /* animation-name: defilement-rtl;    référence à la règle @keyframes mise en oeuvre
+  animation-duration: 15s;              valeur à ajuster suivant la longueur du message
+  animation-iteration-count: infinite;  boucle continue
+  animation-timing-function: linear;    pas vraiment utile ici  */
+
+
+@keyframes defilement-rtl {
+    100% {
+      transform: translate3d(0,0,0);      /* position initiale à droite */
+    }
+    0% {
+      transform: translate3d(-100%,0,0);  /* position finale à gauche */
+    }
+  }
+
+
+
+/* ############################################################################################### */
+/* ############################################################################################### */
+/* ############################################################################################### */
+/* ############################################################################################### */
+/* ######################################    MAIN    ############################################# */
+/* ############################################################################################### */
+/* ############################################################################################### */
+/* ############################################################################################### */
+/* ############################################################################################### */
+
+main {
+    /* margin: 0px 200px; */
+    /* padding-top: 20px; */
+    margin-top: 48px;
+    margin-bottom: 5%;
+    font-size: 25px;
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+
+.banniere img {
+    margin-top: 52px;
+    width: 100%;
+    /* height: 100%; */
+    /* object-fit: cover;
+    object-position: center; */  
+}
+
+div .premiere {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+
+.premiere img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    /* width: 1800px; */
+    /* height: auto; */
+    /* padding: 3px;
+    border-radius: 10px;
+    border: 4px solid rgb(252, 82, 3);
+    background-color: #000000;
+    margin: 5% 0; */
+    /* position: relative; */
+    margin: 5% 0;
+}
+
+/* 
+.texte-asset1 {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    justify-content: flex-end;
+    left: 10%;
+    top: 110%;
+    font-size: 200%;
+    font-size: 2em;
+    font-weight: bold;
+    color: #ffffff;
+    line-height: 1.3em;
+    opacity: 0;
+    animation: fadeOut 0.3s ease-out;
+}
+.texte-asset2 {
+    position: absolute;
+    left: 10%;
+    top: 120%;
+    display: flex;
+    text-align: left;
+    font-size: 150%;
+    font-size: 2em;
+    font-weight: bold;
+    color: #ffffff;
+    line-height: 1.3em;
+    opacity: 0;
+    animation: fadeOut 0.3s ease-out;
+}
+.texte-asset3 {
+    position: absolute;
+    left: 10%;
+    top: 130%;
+    display: flex;
+    text-align: left;
+    font-size: 100%;
+    font-size: 2em;
+    font-weight: bold;
+    color: #ffffff;
+    line-height: 1.3em;
+    opacity: 0;
+    animation: fadeOut 0.3s ease-out;
+} */
+
+/* .texte-asset1:hover {
+    animation: fadeIn 0.2s ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+} */
+
+
