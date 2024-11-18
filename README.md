@@ -1,5 +1,5 @@
 # Fansite de 2 boissons et un espace d'exploration zythologique
-## Jägermeister / Chibre Bleu / Lapsuce
+## <center>Jägermeister / Chibre Bleu / Lapsuce</center>
 
 <br>
 <div align="center">
@@ -62,3 +62,4 @@ Canva a été un élément qui nous a été utile pour la retouche de photo, log
 <div align="">
     <img src="https://s10.aconvert.com/convert/p3r68-cdx67/agw4h-go0zj.jpg" width="500" />
 </div>
+<i>Site sans hebergement </i>
