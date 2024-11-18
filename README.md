@@ -1,22 +1,24 @@
-## Fansite Jagermeister, Chibre Bleu, Lapsuce
+# Fansite de 2 boissons et un espace d'exploration zythologique
+## Jägermeister / Chibre Bleu / Lapsuce
 
 <br>
 <div align="center">
-    <img src="/Home/img/" />
+    <img src="https://s10.aconvert.com/convert/p3r68-cdx67/ax74o-gut42.jpg" />
 </div>
 <br>
 
 ## Table des matières
-
-- [Fansite Jagermeister, Chibre Bleu, Lapsuce](#fansite-jagermeister-chibre-bleu-lapsuce)
-- [Table des matières](#table-des-matières)
-- [📢 Informations générales](#-informations-générales)
-  - [Vision du projet](#vision-du-projet)
-  - [Gestion de l'équipe](#gestion-de-léquipe)
-- [🛠️ Compétences et outils](#️-compétences-et-outils)
-  - [Compétences](#compétences)
-  - [Outils](#outils)
-- [📁 Ressources](#-ressources)
+- [Fansite de 2 boissons et un espace d'exploration zythologique](#fansite-de-2-boissons-et-un-espace-dexploration-zythologique)
+  - [Jägermeister / Chibre Bleu / Lapsuce](#jägermeister--chibre-bleu--lapsuce)
+  - [Table des matières](#table-des-matières)
+  - [📢 Informations générales](#-informations-générales)
+    - [Vision du projet](#vision-du-projet)
+    - [Gestion de l'équipe](#gestion-de-léquipe)
+  - [🛠️ Compétences et outils](#️-compétences-et-outils)
+    - [Compétences](#compétences)
+    - [Outils](#outils)
+  - [📁 Ressources](#-ressources)
+    - [Charte graphique](#charte-graphique)
 
 ## 📢 Informations générales
 
@@ -49,3 +51,14 @@ Canva a été un élément qui nous a été utile pour la retouche de photo, log
 - Canva
 
 ## 📁 Ressources 
+
+### <i>Charte graphique</i>
+<div align="">
+    <img src="https://s10.aconvert.com/convert/p3r68-cdx67/azqhh-xz0du.jpg" width="500" />
+</div>
+<div align="">
+    <img src="https://s10.aconvert.com/convert/p3r68-cdx67/ajpaq-912jg.jpg" width="500" />
+</div>
+<div align="">
+    <img src="https://s10.aconvert.com/convert/p3r68-cdx67/agw4h-go0zj.jpg" width="500" />
+</div>
