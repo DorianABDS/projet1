@@ -5,7 +5,6 @@
 <div align="center">
     <img src="https://s10.aconvert.com/convert/p3r68-cdx67/ax74o-gut42.jpg" />
 </div>
-<br>
 
 ## Table des matières
 - [Fansite de 2 boissons et un espace d'exploration zythologique](#fansite-de-2-boissons-et-un-espace-dexploration-zythologique)
