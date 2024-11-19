@@ -1,5 +1,7 @@
-# Fansite de 2 boissons et un espace d'exploration zythologique
-## <center>Jägermeister / Chibre Bleu / Lapsuce</center>
+<div align="center">
+<h1>Fansite de 2 boissons et bar à bière</h1>
+<h2>Jägermeister / Chibre Bleu / Lapsuce</h2>
+</div>
 
 <br>
 <div align="center">
