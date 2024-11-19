@@ -10,16 +10,16 @@
 - [Fansite de 2 boissons et un espace d'exploration zythologique](#fansite-de-2-boissons-et-un-espace-dexploration-zythologique)
   - [Jägermeister / Chibre Bleu / Lapsuce](#jägermeister--chibre-bleu--lapsuce)
   - [Table des matières](#table-des-matières)
-  - [📢 Informations générales](#-informations-générales)
+  - [📜 Informations générales](#-informations-générales)
     - [Vision du projet](#vision-du-projet)
     - [Gestion de l'équipe](#gestion-de-léquipe)
   - [🛠️ Compétences et outils](#️-compétences-et-outils)
     - [Compétences](#compétences)
     - [Outils](#outils)
-  - [📁 Ressources](#-ressources)
+  - [🌱 Ressources](#-ressources)
     - [Charte graphique](#charte-graphique)
 
-## 📢 Informations générales
+## 📜 Informations générales
 
 ### <i>Vision du projet</i>
 Le Fansite est un travail fourni de une semaine par notre école. L'objectif est de regrouper un réseau de fans autour d'un thème de groupe. Nous avons donc choisi un thème de boisson. Chacun de nous développe sa page pour arrivé à une finalité de site web de fan regroupant 3 boissons différentes.
@@ -49,7 +49,7 @@ Canva a été un élément qui nous a été utile pour la retouche de photo, log
 - Github
 - Canva
 
-## 📁 Ressources 
+## 🌱 Ressources 
 
 ### <i>Charte graphique</i>
 <div align="">
