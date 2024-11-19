@@ -7,11 +7,8 @@
 </div>
 
 ## Table des matières
-- [Fansite de 2 boissons et un espace d'exploration zythologique](#fansite-de-2-boissons-et-un-espace-dexploration-zythologique)
-  - [Jägermeister / Chibre Bleu / Lapsuce](#jägermeister--chibre-bleu--lapsuce)
-  - [Table des matières](#table-des-matières)
   - [📜 Informations générales](#-informations-générales)
-    - [Vision du projet](#vision-du-projet)
+    - [Ensemble du projet](#vision-du-projet)
     - [Gestion de l'équipe](#gestion-de-léquipe)
   - [🛠️ Compétences et outils](#️-compétences-et-outils)
     - [Compétences](#compétences)
