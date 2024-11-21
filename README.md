@@ -5,18 +5,19 @@
 
 <br>
 <div align="center">
-    <img src="https://s10.aconvert.com/convert/p3r68-cdx67/ax74o-gut42.jpg" />
+    <img src="/Home/img/photo home.png" />
 </div>
 
 ## Table des matières
-  - [📜 Informations générales](#-informations-générales)
-    - [Ensemble du projet](#vision-du-projet)
-    - [Gestion de l'équipe](#gestion-de-léquipe)
-  - [🛠️ Compétences et outils](#️-compétences-et-outils)
-    - [Compétences](#compétences)
-    - [Outils](#outils)
-  - [🌱 Ressources](#-ressources)
-    - [Charte graphique](#charte-graphique)
+- [Table des matières](#table-des-matières)
+- [📜 Informations générales](#-informations-générales)
+  - [Vision du projet](#vision-du-projet)
+  - [Gestion de l'équipe](#gestion-de-léquipe)
+- [🛠️ Compétences et outils](#️-compétences-et-outils)
+  - [Compétences](#compétences)
+  - [Outils](#outils)
+- [🌱 Ressources](#-ressources)
+  - [Charte graphique](#charte-graphique)
 
 ## 📜 Informations générales
 
